@@ -1,0 +1,6 @@
+framework module Pods_testMoviesTauaTests {
+  umbrella header "Pods-testMoviesTauaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

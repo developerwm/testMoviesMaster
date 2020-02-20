@@ -47,6 +47,9 @@
                         <viewLayoutGuide key="safeArea" id="sEJ-yt-svu"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favoritos" id="6Ae-yn-NQM"/>
+                    <connections>
+                        <outlet property="collection" destination="dVS-il-eOl" id="X4E-7S-zAp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ABN-aV-yFV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -91,6 +94,9 @@
                         <viewLayoutGuide key="safeArea" id="h7f-UN-WXD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="nZC-Zh-qgA"/>
+                    <connections>
+                        <outlet property="collectionMovies" destination="VKj-X7-Mpc" id="6qq-Pe-gmZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nhY-NW-HdW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
